@@ -1,0 +1,17 @@
+
+body{
+    background-color: rgb(235, 232, 255);
+}
+#anima-div{
+    background: url("../imgs/frango.png") -10px  0px ;
+    height:150px;
+    width:160px;
+    animation: anima-sprite .6s steps(3) infinite;
+}
+@keyframes anima-sprite{
+    100% {background-position-x: 1000px;}
+}
+
+
+
+
